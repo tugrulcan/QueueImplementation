@@ -8,6 +8,7 @@ namespace QueueImplementation
 {
     public interface IQueue
     {
+
         void Insert(object item);
         object Remove();
         object Peek();
