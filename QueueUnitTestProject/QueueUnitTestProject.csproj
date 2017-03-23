@@ -53,6 +53,12 @@
     <Compile Include="SimpleArrayTypedQueueUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QueueImplementation\QueueImplementation.csproj">
+      <Project>{bee97de9-88f8-4504-85a7-1f9df1af16d6}</Project>
+      <Name>QueueImplementation</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
