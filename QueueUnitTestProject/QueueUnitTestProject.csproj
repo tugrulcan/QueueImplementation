@@ -50,6 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="CircularArrayTypedQueueUnitTests.cs" />
     <Compile Include="SimpleArrayTypedQueueUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
